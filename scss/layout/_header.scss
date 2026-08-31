@@ -1,0 +1,21 @@
+.navbar {
+  background-color: $color-morado;
+  padding: 1rem 0;
+
+  .navbar-brand {
+    color: $color-blanco !important;
+    font-weight: bold;
+
+    &:hover {
+      color: lighten($color-morado, 30%) !important;
+    }
+  }
+
+  .nav-link {
+    color: $color-blanco !important;
+
+    &:hover {
+      color: $color-naranja !important;
+    }
+  }
+}

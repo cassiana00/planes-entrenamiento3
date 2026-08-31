@@ -1,0 +1,15 @@
+footer {
+  background-color: $color-fondo-oscuro;
+  color: $color-blanco;
+  text-align: center;
+  padding: 1.5rem 0;
+
+  a {
+    color: $color-naranja;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

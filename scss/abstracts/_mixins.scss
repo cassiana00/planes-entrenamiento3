@@ -1,0 +1,21 @@
+// Mixin para centrar con Flexbox
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Mixin para botones (con parámetros)
+@mixin boton-variante($color-fondo, $color-texto: white) {
+  background-color: $color-fondo;
+  color: $color-texto;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+}

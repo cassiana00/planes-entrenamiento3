@@ -1,0 +1,15 @@
+%boton-base {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  @extend %boton-base;
+  @include boton-variante($color-morado);
+
+  &:hover {
+    background-color: darken($color-morado, 10%);
+  }
+}
